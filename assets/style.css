@@ -42,6 +42,11 @@ body {
 	width: 20px;
 }
 
+.carousel-item img {
+	width: 100%;
+	display: block;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -98,9 +103,9 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
+	color: black; /* si c'est en blanc ça enlève de l'accessibilité */
+	background-color: #BEB45A; 
+	border-radius:0;
 }
 .nav-pills .nav-link {
 	color: #000
