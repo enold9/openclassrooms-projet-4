@@ -76,6 +76,11 @@ body {
 	width: 100%;
 	aspect-ratio: 1/1;
 }
+.carousel span{
+	color: black;
+	/* background-color: white; */
+}
+
 #about-me {
 	flex: 2
 }
